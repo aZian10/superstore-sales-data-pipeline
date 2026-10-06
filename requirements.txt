@@ -1,0 +1,18 @@
+# Core Data Engineering Dependencies
+pandas>=2.1.0
+numpy>=1.26.0
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# Database Connectivity
+SQLAlchemy>=2.0.0
+psycopg2-binary>=2.9.9
+
+# Ingestion
+kaggle>=1.5.16
+
+# Quality & Testing
+pytest>=7.4.0
+
+# Development & Notebooks
+jupyterlab>=4.0.0

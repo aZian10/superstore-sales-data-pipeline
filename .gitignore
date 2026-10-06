@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments & virtualenvs
+.env
+*.env
+.venv/
+venv/
+env/
+ENV/
+
+# Testing & notebooks
+.pytest_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# Data & archives (protect original and processed data from VCS)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/errors/*
+!data/errors/.gitkeep
+*.zip
+*.tar.gz
+*.csv
+
+# Logs
+logs/*
+!logs/.gitkeep
+*.log
+
+# Airflow local runtime artifacts
+airflow.cfg
+airflow.db
+webserver_config.py
+standalone_admin_password.txt
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
